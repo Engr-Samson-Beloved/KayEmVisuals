@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KayEm Visuals Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/vanta/dist/vanta.waves.min.js"></script>
+
+
 </head>
-<body>
+<body id="vanta-bg">
     <a class="nav-btn" id="nav-btn"> &#9776; </a>
     
     <div class="content section active" id="home" style="overflow: hidden;">
-        <div class="hero-section">
+        <div class="hero-section" id="momo">
             <div class="hero-overlay overlay">
             <div class="content" id="home" class="section active">
             <a class="nav-btn" id="nav-btn"> &#9776; </a>
             <div class="profile-pic">
                 <img src="./profile-pics.jpg" alt="Profile Picture">
             </div>
-            <h1 class="landing-title" style="font-size: 30px;">Welcome to KayEm Visuals</h1>
+            <h1 class="landing-title element" style="font-size: 30px;">Welcome to KayEm Visuals</h1>
             <p class="sub-title">Your one-stop destination for stunning graphic designs.</p>
             <div class="cta-buttons">
                 <button class="cta-btn">View Portfolio</button>
@@ -26,7 +31,7 @@
                     <button class="download-cv-btn">Download CV</button>
                 </div>
             </div>
-            <!-- <div class="scroll-indicator"></div> -->
+            <!--  -->
         </div>
     </div>
     
@@ -42,30 +47,30 @@
             <section id="services" class="services-section">
                 <h2 class="services-heading">Our Services</h2>
                 <div class="services-container">
-                    <div class="service-item">
+                    <div class="service-item wow animate__animated animate__fadeIn">
                         <div class="service-icon">
-                            <img src="./1.png" alt="Logo Design Icon">
+                            <img src="./kindpng_3345509.png" alt="Logo Design Icon">
                         </div>
                         <h3 class="service-title">Logo Design</h3>
                         <p class="service-description">Creating visually stunning logos that represent your brand.</p>
                     </div>
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./kindpng_3345509.png" alt="Brand Identity Icon">
+                            <img src="./1.png" alt="Brand Identity Icon">
                         </div>
                         <h3 class="service-title">Brand Identity</h3>
                         <p class="service-description">Developing a cohesive brand identity across all platforms.</p>
                     </div>
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./64b2899f2a8a72a3d7fe7a4b_project-three-p-2000.png" alt="Print Design Icon">
+                            <img src="./fanta.jpg" alt="Print Design Icon">
                         </div>
                         <h3 class="service-title">Print Design</h3>
                         <p class="service-description">Designing eye-catching brochures, flyers, and posters.</p>
                     </div>
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./fanta.jpg" alt="Web Design Icon">
+                            <img src="./64b2899f2a8a72a3d7fe7a4b_project-three-p-2000.png" alt="Web Design Icon">
                         </div>
                         <h3 class="service-title">Web Design</h3>
                         <p class="service-description">Creating modern and responsive websites for your business.</p>
@@ -86,7 +91,7 @@
                         <img src="./64b17134cb5040da34ae56a8_blog-007-p-500.png" alt="Experience Icon">
                     </div>
                     <div class="timeline-content">
-                        <h3 class="timeline-title">Project Name 1</h3>
+                        <h3 class="timeline-title">Holozoid Company</h3>
                         <span class="timeline-date">January 2023 - Present</span>
                         <p class="timeline-description">Successfully delivered a full branding solution for a startup, including logo design, brand identity, and marketing materials.</p>
                     </div>
@@ -96,7 +101,7 @@
                         <img src="./64b2899f2a8a72a3d7fe7a4b_project-three-p-2000.png" alt="Experience Icon">
                     </div>
                     <div class="timeline-content">
-                        <h3 class="timeline-title">Project Name 2</h3>
+                        <h3 class="timeline-title">UI/UX Figma Design</h3>
                         <span class="timeline-date">March 2022 - December 2022</span>
                         <p class="timeline-description">Redesigned a major e-commerce website, resulting in a 30% increase in user engagement and sales.</p>
                     </div>
@@ -106,7 +111,7 @@
                         <img src="./NIGHT.jpg" alt="Experience Icon">
                     </div>
                     <div class="timeline-content">
-                        <h3 class="timeline-title">Project Name 3</h3>
+                        <h3 class="timeline-title">Nightingale Design</h3>
                         <span class="timeline-date">July 2021 - February 2022</span>
                         <p class="timeline-description">Developed a mobile app for a healthcare provider, improving patient interaction and satisfaction.</p>
                     </div>
@@ -116,7 +121,7 @@
                         <img src="./Fler.jpg" alt="Experience Icon">
                     </div>
                     <div class="timeline-content">
-                        <h3 class="timeline-title">Project Name 4</h3>
+                        <h3 class="timeline-title">Birthday Fliers</h3>
                         <span class="timeline-date">January 2021 - June 2021</span>
                         <p class="timeline-description">Created a series of promotional videos and social media graphics for a fashion brand, boosting online presence.</p>
                     </div>
@@ -135,13 +140,13 @@
                         <img src="./fanta.jpg" alt="Workspace 1">
                     </div>
                     <div class="workspace-content">
-                        <h3 class="workspace-title">Creative Environment</h3>
+                        <h3 class="workspace-title">Enhanced Product Design</h3>
                         <p class="workspace-description">A modern and innovative workspace designed to inspire creativity and collaboration.</p>
                     </div>
                 </div>
                 <div class="workspace-item">
                     <div class="workspace-icon">
-                        <img src="./fanta.jpg" alt="Workspace 2">
+                        <img src="./images.jpg" alt="Workspace 2">
                     </div>
                     <div class="workspace-content">
                         <h3 class="workspace-title">High-Tech Equipment</h3>
@@ -150,7 +155,7 @@
                 </div>
                 <div class="workspace-item">
                     <div class="workspace-icon">
-                        <img src="/Darknes.jfif" alt="Workspace 3">
+                        <img src="/image3.jpg" alt="Workspace 3">
                     </div>
                     <div class="workspace-content">
                         <h3 class="workspace-title">Comfortable Spaces</h3>
@@ -195,6 +200,20 @@
                     <p class="testimonial-role">Founder, Startup Solutions</p>
                 </div>
             </div>
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p class="testimonial-text">"KayEm Visuals transformed our brand with their exceptional design skills. Highly recommend!"</p>
+                    <h3 class="testimonial-author">John DoeSon</h3>
+                    <p class="testimonial-role">CEO, TechieCorp</p>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p class="testimonial-text">"Their attention to detail and ability to capture our vision is unmatched. Thank you, KayEm Visuals!"</p>
+                    <h3 class="testimonial-author">Olabanji Samson</h3>
+                    <p class="testimonial-role">Founder, SammixTech</p>
+                </div>
+            </div>
         </div>
     </section>
 </div>
@@ -234,14 +253,14 @@
             <li><a href="#" data-section="workspace">Workspace</a></li>
             <li><a href="#" data-section="testimonials">Testimonials</a></li>
             <li><a href="#" data-section="contact">Contact</a></li>
+            <li class="scroll-indicator"></li>
         </ul>
     </nav>
 
     <div class="overlay" id="overlay">
        
     </div>
-   
-    
     <script src="scripts.js"></script>
+       
 </body>
 </html>

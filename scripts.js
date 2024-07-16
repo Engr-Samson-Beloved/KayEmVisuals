@@ -1,3 +1,4 @@
+
 const navBtn = document.getElementById('nav-btn');
 const nav = document.getElementById('nav');
 const overlay = document.getElementById('overlay');
@@ -43,5 +44,24 @@ function showSection(sectionId) {
 // Ensure nav button remains fixed
 window.addEventListener('scroll', () => {
     navBtn.style.top = `${window.scrollY}px`;
+});
+
+var typed = new Typed('.element', {
+    strings: ["First sentence.", "Second sentence."],
+    typeSpeed: 50
+});
+VANTA.WAVES({
+    el: "#home",
+    color: 0x6e45e2,
+    shininess: 50,
+    waveHeight: 20,
+    waveSpeed: 1
+});
+VANTA.WAVES({
+    el: ".overlay",
+    color: 0x6e45e2,
+    shininess: 50,
+    waveHeight: 20,
+    waveSpeed: 1
 });
 
