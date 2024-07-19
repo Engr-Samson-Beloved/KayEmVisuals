@@ -47,21 +47,32 @@ window.addEventListener('scroll', () => {
 });
 
 var typed = new Typed('.element', {
-    strings: ["First sentence.", "Second sentence."],
+    strings: ["Welcome to KayVisuals", "Your Favorite Graphics Designer"],
     typeSpeed: 50
 });
-VANTA.WAVES({
+VANTA.BIRDS({
     el: "#home",
     color: 0x6e45e2,
     shininess: 50,
     waveHeight: 20,
-    waveSpeed: 1
+    waveSpeed: 1,
+    mouseControls: true,
 });
-VANTA.WAVES({
-    el: ".overlay",
-    color: 0x6e45e2,
-    shininess: 50,
-    waveHeight: 20,
-    waveSpeed: 1
-});
-
+VANTA.GLOBE({
+    el: "#nav",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00
+  });
+//   VANTA.GLOBE({
+//     el: "#nav",
+//     color: 0x6e45e2,
+//     shininess: 50,
+//     waveHeight: 20,
+//     waveSpeed: 1,
+//     mouseControls: true,
+// });
